@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $host = "localhost";
         $dbname = "moduleconnexion";
         $username = "root";
-        $passwordDB = "Etoile19*";
+        $passwordDB = "";
         
         try {
             $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $passwordDB);
